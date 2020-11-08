@@ -1,0 +1,63 @@
+*{
+    font-family:Courier New;
+}
+body {margin-bottom: 100px;}
+.top{padding-top: 25px;margin: 0;}
+.top1{margin: 0;}
+.top2{margin: 0;}
+.top3{margin: 0;}
+.top4{margin: 40px 20px 0 20px;}
+.logo{padding: 23px 0;background: url(E:/ashish/images/logo.png);background-repeat: no-repeat;}
+.btn-Instructor{border-color: #67696a;margin-right: 15px;}
+.login-btn{background-color: #f3731d;border-radius: 3px;border: none;padding: 7px 20px 7px 22px;}
+.site-heading{margin-top: 20px;}
+.heading-color{color:#08627a;}
+.slide-button{margin-top: 35px;}
+
+
+    
+.type-btn{background-color: #f3731d;border-radius: 22px;padding: 5px 20px 5px 20px;border: none;}
+.rating-btn {padding: 5px 20px 5px 20px;margin-right: 15px;background-color: #f3731d;    border-radius: 22px;border: none;}
+.date-btn {background: #fff;color: black;}
+.time-btn{margin-left: 15px;background-color: #fff;color: #222;}
+i.fa.fa-calculator {font-family: 'FontAwesome';font-style: normal;padding-right: 6px;}
+i.fa.fa-clock-o{ font-family: 'FontAwesome';font-style: normal;padding-right: 6px;}
+.yoga-img{background: url(E:/ashish/images/yoga-girl.jpg);padding: 82px 0;background-repeat: no-repeat;float: left;width: 27%;margin-right: 20px;}
+.box-text {width: 100%;}
+.text-danger {color: #f3731d!important;}
+.box-row{margin: 25px 20px 0 20px;}
+.yoga-boxs{margin: 0 auto;padding: 15px;box-shadow: 0px 0px 5px #888888;border: 1px solid #fff;}
+.box-time{margin-bottom: 0;}
+.box-title{position: relative;bottom: 10px;margin-bottom: 0;}
+.box-des{margin: -5px 0 0px 0;}
+.box-dec2{margin: 0;font-size: 14px;}
+.saaso{color:#f3731d;}
+.amount{font-size: 28px;}
+
+
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px;  color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+@media only screen and (max-width: 768px) {
+ 
+ img{
+     width: 100%;
+ }
+ .padd{
+     padding-bottom: 10px;
+ }
+ .top{
+     margin-top: 20px;
+ }
+ .padding{
+     padding-top: 20px;
+ }
+  }
